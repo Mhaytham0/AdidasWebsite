@@ -1,0 +1,546 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.begain{
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+    border: 12px solid black;
+}
+.begain:hover{
+    cursor: pointer;
+}
+.above-nav{
+    display: flex;
+    width: 96%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 32px;
+}
+.above-nav a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: smaller;
+    padding: 5px;
+    font-weight: 100;
+}
+.above-nav a:hover{
+    text-decoration: underline; 
+}
+.above-nav img:hover{
+    cursor: pointer;
+}
+
+.nav-start{
+    width: 25%;
+    height: 8vh;
+}
+.nav-start img{
+    padding-top: -10px;
+    padding-left: 15px;
+}
+.nav-middle{
+    width: 45%;
+    height: 8vh;
+}
+.nav-middle a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.bold{
+    font-weight: bold;
+}
+.nav-middle a:hover{
+    text-decoration: underline;
+}
+.nav-end{
+    width: 30%;
+    height: 10vh;
+    display: flex;
+}
+.nav-end .search-container {
+    float: left;
+    border: none;
+}
+ .search-container button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 30px;
+    margin-right: 16px;
+    background: #cecece;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.nav-end input{
+    padding: 6px;
+    margin-top: 30px;
+    font-size: 17px;
+    background: #cecece;
+    border: none;
+    width: 11vw;
+    height: 32px;
+}
+.logos{
+    float: left;
+    padding: 6px 8px;
+    margin-top: 30px;
+    margin-right: 16px;
+    font-size: 17px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    height: 100vh;
+    width:100%;
+    overflow: hidden;
+}
+#mainVideo{
+    position: absolute;
+    height: 775px;
+    width:100%;
+}
+.content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0,0,0,0);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 221px;
+    margin-left: 113px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+.buy-bot{
+    width: 156px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: solid thin white;
+    padding: 15px 15px;
+    margin: 4px -5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.bor-line{
+    width: 156px;
+    height: 52px;
+    background-color: rgb(255, 0, 0,0);
+    border: solid thin white;
+    padding: 15px 15px;
+    margin: 2px 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 115px;
+    left: -5px;
+}
+
+.sales{
+    width: 100%;
+    height: 400px;
+}
+.include{
+    padding: 60px;
+    height: 280px;
+}
+.parent{
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 8px;
+}
+.child{
+    margin-top: 20px;
+    margin-left: 0px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    height: 33vh;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    background: #eceff1;
+}
+.child:hover{
+    cursor: pointer;
+}
+.type{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    display: flex;
+    gap: 2px;
+}
+.child p{
+    background-color: white;
+    color:black;
+    padding: 4px 8px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#pr{
+    color: red;
+}
+.but-div{
+    margin:4px 0px;
+    display: flex;
+    width: 381px;
+    height: 44px;
+    justify-content: left;
+    gap: 5px;
+}
+.button{
+    width:30%;
+    height: 44px;
+    background-color: white;
+    border:solid thin black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.active{
+    width:30%;
+    height: 44px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.sales2{
+    width: 100%;
+    height: 75vh;
+}
+.include2{
+    padding: 60px;
+    height:60vh;
+}
+.parent2{ 
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: left;
+    gap: 10px;
+}
+
+.parent2::-webkit-scrollbar{
+    width: 20px;
+    height: 4px;
+}
+.parent2::-webkit-scrollbar-thumb{
+    background: black;
+}
+.parent2::-webkit-scrollbar-track{
+    background: #eceff1;
+}
+.child2{
+    margin-top: 20px;
+    margin-left: 0px;
+    display:flex;
+    flex-direction: column;
+    height: 52vh;
+    width: 278.4px;
+}
+.child2:hover{
+    border: solid thin black;
+}
+.pic2{
+    display: block;
+    position: relative;
+}
+.type2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 7px;
+    display: flex;
+    gap: 2px;
+}
+.heart2{
+    position: absolute;
+    left: 252px;
+    top: 10px;
+    display: flex;
+    gap: 2px;
+}
+.desc2{
+    padding: 0px 7px;
+
+}
+.desc2 p{
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.price2{
+    position: absolute;
+    left: 65px;
+    bottom: 309px;
+    display: flex;
+    gap: 2px;
+    width: 35px;
+    height: 26px;
+}
+#pr2{
+    width: 28px;
+    height: 20px;
+    padding: 4px 8px;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+#f{
+    font-weight:100;
+    opacity: 0.5;
+}
+.pic-vid{
+    width: 100%;
+    height: 90vh;
+}
+.include3{
+    padding: 60px;
+    height: 59vh;
+    overflow: visible;
+}
+.parent3{
+    width: 100%;
+    height: 75vh;
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    gap: 8px;
+    overflow-x: auto;
+}
+.child3{
+    width: 303.8px;
+    height: 72vh;
+    overflow: visible;
+}
+.parent3::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.child3:hover{
+    cursor: pointer;
+}
+.descrepition-head{
+    font-size: 16px;
+    font-weight: bold;
+}
+.descrepition-body{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.link3 , .link1{
+    margin-top: 14px;
+}
+ .child3 a{
+    font-size: 16px;
+    color: black;
+}
+.child3 a:hover{
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: solid thick black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.paragraph{
+    width: 100%;
+    height:75vh;
+    display: flex;
+    background: #f5f5e5;
+    justify-content: center;
+}
+.half-para{
+    width: 45%;
+    margin: 45px 0px 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.half-para h1{
+    margin: 0px 0px 10px;
+    font-size: 28px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.half-para p{
+    color: black;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 52px;
+}
+.signup{
+    width: auto;
+    height: 7vh;
+    background-color: #ede734;
+    padding: 40px;
+    text-align: center;
+}
+.yellow-box{
+    font-weight: bolder;
+}
+.signup span{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 45px 15px 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sign-up-button{
+    width: 220px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: solid thin black;
+    padding: 15px 32px;
+    margin: 4px -5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.last{
+    width: 80%;
+    height: 65vh;
+    display: flex;
+    padding: 20px 0px 0px;
+    margin: 0 200.6px;
+}
+.last a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 13px;
+}
+.last h1{
+    font-size: 18px;
+}
+.in1{
+    padding: 20px 15px 30px;
+    height: 421px;
+    width: 133px;
+}
+
+.in2{
+    padding: 20px 15px 30px;
+    height: 421px;
+    width: 125.34px;
+}
+.in3{
+    padding: 20px 15px 30px;
+    height: 421px;
+    width: 161.6px;
+}
+.in4{
+    padding: 20px 15px 30px;
+    height: 421px;
+    width: 99.14px;
+}
+.in5{
+    padding: 20px 15px 30px;
+    height: 421px;
+    width: 305.13px;
+}
+.in6{
+    padding: 20px 15px 30px;
+    height: 421px;
+    width: 151.14px;
+}
+.in7{
+    padding: 20px 15px 30px;
+    height: 421px;
+    width: 108.88px;
+}
+.in7 a{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.footer-end {
+    background-color: #282c31;
+    padding: 20px;
+    text-align: center;
+    height: 40px;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+    background-color: #282c31;
+  }
+  
+  .footer-links a {
+    margin-right: 15px;
+    font-size: 12px;
+    color: #d3d7da;
+    text-decoration: none;
+  }
+  .footer-links p{
+    display: inline;
+    padding-right: 15px;
+    color: #cecece;
+  }
+  .footer-links a:hover {
+    text-decoration: none;
+  }
